@@ -1,4 +1,6 @@
 let aantalLijnen = 7;
 for (i = 0; i < aantalLijnen + 1; i++) {
-    console.log("#".repeat(i));
+    for (j = aantalLijnen; j > 0; j--) {
+        console.log(" ".repeat(j) + "#".repeat(i));
+    }
 }
